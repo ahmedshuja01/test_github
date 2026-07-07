@@ -1,0 +1,29 @@
+[1mdiff --git a/ahsan.py b/ahsan.py[m
+[1mindex 629f5e7..bcfafe6 100644[m
+[1m--- a/ahsan.py[m
+[1m+++ b/ahsan.py[m
+[36m@@ -12,24 +12,3 @@[m [mplt.rcParams['font.size'] = 12[m
+ # ===================================================================[m
+ #  CHAPTER 1: Setting the Stage - "Two Tribes in a Digital World"[m
+ # ===================================================================[m
+[31m-[m
+[31m-print(" CHAPTER 1: Creating Our Digital World")[m
+[31m-print("=" * 50)[m
+[31m-[m
+[31m-#  The Random Seed: Ensuring our story is reproducible[m
+[31m-np.random.seed(42)[m
+[31m-print(" Random seed set to 42 - our story will be consistent every time!")[m
+[31m-[m
+[31m-#  Creating the Blue Tribe (Class 0)[m
+[31m-print("\n Creating the Blue Tribe:")[m
+[31m-X0 = np.random.randn(50, 2) * 1.0 + [0, 0]  # Centered at origin, tighter spread[m
+[31m-print(f"   - Population: 50 members")[m
+[31m-print(f"   - Territory: Centered around (0, 0)")[m
+[31m-print(f"   - Lifestyle: Conservative (smaller variance = 1.0)")[m
+[31m-[m
+[31m-#  Creating the Red Tribe (Class 1) [m
+[31m-print("\n Creating the Red Tribe:")[m
+[31m-X1 = np.random.randn(50, 2) * 1.5 + [1.5, 1.5]  # Northeast location, wider spread[m
+[31m-print(f"   - Population: 50 members") [m
+[31m-print(f"   - Territory: Centered around (1.5, 1.5)")[m
+[31m-print(f"   - Lifestyle: Adventurous (larger variance = 1.5)")[m
